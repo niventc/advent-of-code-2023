@@ -38,3 +38,5 @@ with open("input.txt") as file:
         print(f"{line} = {line_value}")
         
     print(sum)
+
+# 53312

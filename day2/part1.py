@@ -31,3 +31,5 @@ with open("input.txt") as file:
         sum += check_game(id, games)
 
     print(sum)
+
+# 2416

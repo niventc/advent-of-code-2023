@@ -36,3 +36,5 @@ with open("input.txt") as file:
         sum += check_line(line)
         
     print(sum)
+
+# 53386
