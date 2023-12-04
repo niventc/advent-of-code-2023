@@ -20,6 +20,4 @@ with open("input.txt") as file:
 
 print(sum(cards))
         
-
-
-
+# 5921508

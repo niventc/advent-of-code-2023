@@ -18,6 +18,4 @@ with open("input.txt") as file:
 
 print(sum)
         
-
-
-
+# 18653
