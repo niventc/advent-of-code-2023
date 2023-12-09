@@ -1,11 +1,9 @@
 
+from itertools import pairwise
 from typing import List
 
 def get_diffs(sequence: List[int]) -> List[int]:
-    diffs = []
-    for idx in range(1, len(sequence)):
-        diffs.append(sequence[idx] - sequence[idx - 1])
-    return diffs
+    return [x[1] - x[0] for x in pairwise(sequence)]
 
 
 def get_next(sequence: List[int]) -> int:
@@ -25,4 +23,4 @@ with open("input.txt") as file:
 
     print(sum([get_next(s) for s in sequences]))
 
-# 1637452029
+# 908
